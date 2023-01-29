@@ -4,23 +4,9 @@
   </div>
 </div></div></div>
 
-{% schema %}
-{
-  "name": "AS Header",
-  "settings": [
+{% stylesheet %}
 
-  ],
-  "presets": [
-    {
-      "name": "AS Header"
-    }
-  ]
-}
-{% endschema %}
-
-{%- style -%}
-
-.section_header_container {
+#section_header_container {
     height: calc(100vh - 81px);
     display: flex;
     flex-direction: column;
@@ -41,7 +27,22 @@
      background-size: contain;}
 }
 
-{%- endstyle -%}
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "AS Header",
+  "settings": [
+
+  ],
+  "presets": [
+    {
+      "name": "AS Header"
+    }
+  ]
+}
+{% endschema %}
+
 
 {% javascript %}
 {% endjavascript %}
