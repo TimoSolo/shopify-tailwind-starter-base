@@ -1,0 +1,40 @@
+<div id="section_header"><div id="bg1"><div id="bg2">
+  <div id="twcss-container">
+    <div style="width:250px;height:250px;cursor:pointer"></div>
+  </div>
+</div></div></div>
+
+{% schema %}
+{
+  "name": "AS Header",
+  "settings": [
+
+  ],
+  "presets": [
+    {
+      "name": "AS Header"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+
+@media (max-aspect-ratio: 8/5) 
+{
+   #bg1 { background: url("https://cdn.shopify.com/s/files/1/0680/7129/3231/files/bgmobile.jpg?v=1674587993") no-repeat center center ;
+     background-size: contain;}
+     #bg2 {background: none;}
+}
+@media (min-aspect-ratio: 8/5) 
+{
+   #bg1 { background: url("https://cdn.shopify.com/s/files/1/0680/7129/3231/files/bg_right.gif?v=1674587978") no-repeat right bottom ;
+     background-size: contain;}
+   #bg2 { background: url("https://cdn.shopify.com/s/files/1/0680/7129/3231/files/bg_left.gif?v=1674587978") no-repeat left bottom ;
+     background-size: contain;}
+}
+
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
