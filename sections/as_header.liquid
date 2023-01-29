@@ -1,5 +1,5 @@
 <div id="section_header"><div id="bg1"><div id="bg2">
-  <div id="twcss-container">
+  <div id="section_header_container">
     <div style="width:250px;height:250px;cursor:pointer"></div>
   </div>
 </div></div></div>
@@ -19,7 +19,13 @@
 {% endschema %}
 
 {% stylesheet %}
-
+.section_header_container {
+    height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+  }
 @media (max-aspect-ratio: 8/5) 
 {
    #bg1 { background: url("https://cdn.shopify.com/s/files/1/0680/7129/3231/files/bgmobile.jpg?v=1674587993") no-repeat center center ;
