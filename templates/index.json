@@ -1,5 +1,10 @@
 {
   "sections": {
+    "78bf8951-76d5-48b8-b509-5baedec81799": {
+      "type": "as_header",
+      "settings": {
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "disabled": true,
@@ -56,6 +61,7 @@
     }
   },
   "order": [
+    "78bf8951-76d5-48b8-b509-5baedec81799",
     "multicolumn"
   ]
 }
