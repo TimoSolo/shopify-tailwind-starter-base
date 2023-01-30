@@ -590,6 +590,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: flex;
   }
 
+  .md\:twcss-px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .md\:twcss-pt-16 {
     padding-top: 4rem;
   }
