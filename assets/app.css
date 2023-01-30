@@ -550,3 +550,47 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+
+@media (min-width: 750px) {
+  .md\:twcss-container {
+    width: 100%;
+  }
+
+  @media (min-width: 320px) {
+    .md\:twcss-container {
+      max-width: 320px;
+    }
+  }
+
+  @media (min-width: 750px) {
+    .md\:twcss-container {
+      max-width: 750px;
+    }
+  }
+
+  @media (min-width: 990px) {
+    .md\:twcss-container {
+      max-width: 990px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .md\:twcss-container {
+      max-width: 1440px;
+    }
+  }
+
+  @media (min-width: 1920px) {
+    .md\:twcss-container {
+      max-width: 1920px;
+    }
+  }
+
+  .md\:twcss-flex {
+    display: flex;
+  }
+
+  .md\:twcss-pt-16 {
+    padding-top: 4rem;
+  }
+}
