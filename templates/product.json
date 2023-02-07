@@ -126,14 +126,14 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Handcrafted for You",
+            "heading_size": "h2"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>At Aurum Stories, we believe that every piece of jewelry should be as unique and special as the person who wears it. That's why we take pride in crafting each piece by hand, just for you.<\/p><p>Our jewelry is not mass-produced, but made to order, ensuring that every piece is one-of-a-kind and tailored to your individual taste. This means that the production time for your jewelry is approximately 3-6 weeks, as we take the time to carefully craft each piece with the utmost attention to detail.<\/p><p>When you purchase a piece of jewelry from Aurum Stories, you can be confident that you are not only getting a beautiful and high-quality item, but also a truly unique piece that is made just for you.<\/p><p>We believe that the process of creating your jewelry should be just as special as the final product. Thank you for choosing Aurum Stories, where every piece tells a story.<\/p>",
             "text_style": "body"
           }
         }
@@ -143,10 +143,11 @@
         "image-with-text-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/custom-gems.jpg",
         "height": "small",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-2",
@@ -157,6 +158,7 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
