@@ -66,6 +66,7 @@
     },
     "f9efed1e-356e-4d54-8f22-ec8f14e1f9ff": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Rainbow Collection",
         "heading_size": "h1",
