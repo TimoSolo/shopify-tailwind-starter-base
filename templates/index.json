@@ -63,11 +63,39 @@
       "type": "as_about",
       "settings": {
       }
+    },
+    "f9efed1e-356e-4d54-8f22-ec8f14e1f9ff": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Rainbow Collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "rainbow-collection",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "78bf8951-76d5-48b8-b509-5baedec81799",
     "multicolumn",
-    "0d8d9399-f0c8-47f3-93b0-b1ed39c9ba51"
+    "0d8d9399-f0c8-47f3-93b0-b1ed39c9ba51",
+    "f9efed1e-356e-4d54-8f22-ec8f14e1f9ff"
   ]
 }
