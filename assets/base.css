@@ -2,6 +2,8 @@
   font-family: 'Holdsmith';
   src: url('https://cdn.shopify.com/s/files/1/0680/7129/3231/files/HoldsmithRegular.woff?v=1676269618');
 }
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 .handwritten {
   font-family: 'Holdsmith', cursive;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
@@ -11,8 +13,8 @@
 }
 
 p {
-  line-height: 2.5rem !important;
-  padding-bottom: 1.2rem;
+  line-height: 1.75em !important;
+  padding-bottom: 1.5rem;
 }
 .altbg {
   background-color: #023f42;
