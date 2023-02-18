@@ -1,0 +1,64 @@
+<div id="section_custom" class="relative">
+    <video id="bg-video" autoPlay loop muted playsInline poster="">
+      <source src="" type="video/mp4" />
+    </video>
+    <div class="twcss-mx-auto md:twcss-container md:twcss-flex twcss-py-8 ptwcss-x-8">
+     
+      <div class="lg:twcss-px-8">
+        <h2 class="md:twcss-pt-16 handwritten twcss-mx-auto twcss-text-4xl gold twcss-py-4 twcss-text-center">
+          Bespoke Creations
+        </h2>
+        <p class="twcss-text-lg">Love or legacy? Heritage or objet d’art?</p>
+        <p class="twcss-text-lg">
+          Often a piece of jewellery holds meaning and significance to the
+          wearer. A form of self-expression and identity. Aurum&nbsp;Stories
+          makes it personal allowing each unique creation to tell its own
+          story.
+        </p>
+        
+          <a to="/bespoke" class="button">
+            Create Your Story
+          </a>
+        
+      </div>
+
+      <div class="">
+        
+        <div class="custom-pic mx-auto mt-8 md:mt-0 w-full md:w-96 text-center">
+          <img
+            src="../images/custom-ring.jpg"
+            alt="Custom Ring"
+          />
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+<style>
+    #bg-video {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.15;
+      }
+</style>
+{% schema %}
+{
+  "name": "AS Bespoke",
+  "settings": [
+
+  ],
+  "presets": [
+    {
+      "name": "AS Bespoke"
+    }
+  ]
+}
+{% endschema %}
