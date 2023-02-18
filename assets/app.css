@@ -514,12 +514,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.twcss-mt-16 {
+  margin-top: 4rem;
+}
+
 .twcss-block {
   display: block;
 }
 
 .twcss-w-64 {
   width: 16rem;
+}
+
+.twcss-w-full {
+  width: 100%;
 }
 
 .twcss-py-16 {
@@ -586,8 +594,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     }
   }
 
+  .md\:twcss-mt-0 {
+    margin-top: 0px;
+  }
+
   .md\:twcss-flex {
     display: flex;
+  }
+
+  .md\:twcss-w-96 {
+    width: 24rem;
   }
 
   .md\:twcss-px-16 {
