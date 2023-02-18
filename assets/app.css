@@ -609,4 +609,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  .lg\:twcss-px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
