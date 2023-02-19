@@ -644,4 +644,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 4rem;
     padding-right: 4rem;
   }
+
+  .lg\:twcss-pl-8 {
+    padding-left: 2rem;
+  }
 }
