@@ -549,6 +549,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
+.twcss-px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.twcss-px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .twcss-text-center {
   text-align: center;
 }
