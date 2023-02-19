@@ -96,6 +96,11 @@
       "type": "as_bespoke",
       "settings": {
       }
+    },
+    "c8e4eb27-b219-484d-87bd-cf34b94df4fb": {
+      "type": "as_classic",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -103,6 +108,7 @@
     "multicolumn",
     "0d8d9399-f0c8-47f3-93b0-b1ed39c9ba51",
     "f9efed1e-356e-4d54-8f22-ec8f14e1f9ff",
-    "a8d65701-06a8-4a7a-9da5-f1c9a6fee328"
+    "a8d65701-06a8-4a7a-9da5-f1c9a6fee328",
+    "c8e4eb27-b219-484d-87bd-cf34b94df4fb"
   ]
 }
