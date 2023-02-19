@@ -509,8 +509,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.twcss-absolute {
+  position: absolute;
+}
+
 .twcss-relative {
   position: relative;
+}
+
+.twcss-top-0 {
+  top: 0px;
+}
+
+.twcss-left-0 {
+  left: 0px;
 }
 
 .twcss-mx-auto {
@@ -534,6 +546,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: block;
 }
 
+.twcss-h-36 {
+  height: 9rem;
+}
+
 .twcss-w-64 {
   width: 16rem;
 }
@@ -542,10 +558,38 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.twcss-w-36 {
+  width: 9rem;
+}
+
+.twcss--translate-x-12 {
+  --tw-translate-x: -3rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.twcss--translate-y-24 {
+  --tw-translate-y: -6rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.twcss-transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .twcss-space-y-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+
+.twcss-overflow-hidden {
+  overflow: hidden;
 }
 
 .twcss-py-16 {
@@ -583,12 +627,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 6rem;
 }
 
+.twcss-px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .twcss-pt-12 {
   padding-top: 3rem;
 }
 
+.twcss-pr-16 {
+  padding-right: 4rem;
+}
+
 .twcss-text-center {
   text-align: center;
+}
+
+.twcss-text-right {
+  text-align: right;
 }
 
 .twcss-text-4xl {
@@ -601,6 +658,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.twcss-text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.twcss-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .twcss-font-medium {
   font-weight: 500;
 }
@@ -609,9 +676,27 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.5rem;
 }
 
+.twcss-leading-9 {
+  line-height: 2.25rem;
+}
+
 .twcss-text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.twcss-text-indigo-200 {
+  --tw-text-opacity: 1;
+  color: rgb(199 210 254 / var(--tw-text-opacity));
+}
+
+.twcss-text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
+.twcss-opacity-50 {
+  opacity: 0.5;
 }
 
 @media (min-width: 750px) {
@@ -698,6 +783,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 990px) {
+  .lg\:twcss-ml-10 {
+    margin-left: 2.5rem;
+  }
+
+  .lg\:twcss-flex {
+    display: flex;
+  }
+
+  .lg\:twcss-items-center {
+    align-items: center;
+  }
+
   .lg\:twcss-px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
