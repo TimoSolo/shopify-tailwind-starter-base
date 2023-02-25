@@ -8,11 +8,11 @@
 }
 #igr-title {
   font-size: 36px;
-  color: #dfa24e;
+  color: #dfa24e !important;
   font-family: 'Holdsmith', cursive;
   text-shadow: 0 2px 2px rgb(0 0 0 / 15%);
   line-height: 2.4em;
-  margin-top: 24px;
+  margin-top: 56px;
   margin-bottom: 16px;
 }
 
