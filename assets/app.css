@@ -562,6 +562,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 9rem;
 }
 
+.twcss-max-w-2xl {
+  max-width: 42rem;
+}
+
 .twcss--translate-x-12 {
   --tw-translate-x: -3rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y))
@@ -775,6 +779,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:twcss-pt-32 {
     padding-top: 8rem;
+  }
+
+  .md\:twcss-pt-16 {
+    padding-top: 4rem;
   }
 }
 
