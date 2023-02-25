@@ -58,6 +58,12 @@ p {
 .twcss-text-lg {
   font-size: 18px;
 }
+.twcss-text-xl {
+  font-size: 20px;
+}
+.twcss-text-2xl {
+  font-size: 24px;
+}
 .twcss-text-4xl {
   font-size: 36px;
 }
