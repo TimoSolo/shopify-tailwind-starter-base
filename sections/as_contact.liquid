@@ -62,7 +62,7 @@
             value='{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}'
             placeholder='{{ 'templates.contact.form.name' | t }}'
           >
-          <label class='field__label light-green' for='ContactForm-name'>{{ 'templates.contact.form.name' | t }}</label>
+          <label class='field__label' for='ContactForm-name'>{{ 'templates.contact.form.name' | t }}</label>
         </div>
         <div class='field twcss-mt-5 field--with-error'>
           <input
@@ -81,7 +81,7 @@
             {% endif %}
             placeholder='{{ 'templates.contact.form.email' | t }}'
           >
-          <label class='field__label light-green' for='ContactForm-email'>
+          <label class='field__label' for='ContactForm-email'>
             {{- 'templates.contact.form.email' | t }}
             <span aria-hidden='true'>*</span></label
           >
@@ -107,7 +107,7 @@
           value='{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}'
           placeholder='{{ 'templates.contact.form.phone' | t }}'
         >
-        <label class='field__label light-green' for='ContactForm-phone'>{{ 'templates.contact.form.phone' | t }}</label>
+        <label class='field__label' for='ContactForm-phone'>{{ 'templates.contact.form.phone' | t }}</label>
       </div>
       <div class='field twcss-mt-5'>
         <textarea
@@ -119,7 +119,7 @@
         >
                 {{- form.body -}}
               </textarea>
-        <label class='form__label field__label light-green' for='ContactForm-body'>
+        <label class='form__label field__label' for='ContactForm-body'>
           {{- 'templates.contact.form.comment' | t -}}
         </label>
       </div>

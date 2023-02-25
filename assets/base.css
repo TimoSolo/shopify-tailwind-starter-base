@@ -78,7 +78,7 @@ p {
   background-color: rgba(150, 185, 184, 0.3);
   box-shadow: inset 2px 2px 2px rgba(3, 56, 25, 0.5);
 }
-.input::placeholder {
+.dark .field__label {
   color: #7c918b;
   opacity: 1;
 }
