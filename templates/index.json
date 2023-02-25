@@ -117,10 +117,19 @@
             "quote": "Aurum Stories from start to finish really understood my vision and helped bring my ideas to life, creating a unique and beautiful engagement ring. The attention to detail and craftsmanship along with their deep knowledge of gem stones and fine jewelry is unprecedented. I would highly recommend in trusting Aurum Stories in creating something special for your loved ones.",
             "size": "Option 2"
           }
+        },
+        "e4fdfa80-4416-45f5-97ee-f61830955f23": {
+          "type": "testimonial",
+          "settings": {
+            "author": "Olivia",
+            "quote": "Creating a piece of jewellery with Aurum Stories\n                        has been so special! Not only is the piece of sentimental value,\n                        but seeing the design and walking through each stage was\n                        so useful to making those crucial decisions with the\n                        design elements.",
+            "size": "Option 2"
+          }
         }
       },
       "block_order": [
-        "1ba9a35c-0539-4426-afc7-b8a5ac2b6a33"
+        "1ba9a35c-0539-4426-afc7-b8a5ac2b6a33",
+        "e4fdfa80-4416-45f5-97ee-f61830955f23"
       ],
       "settings": {
       }
