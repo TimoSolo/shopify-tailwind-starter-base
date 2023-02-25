@@ -11,6 +11,7 @@
           {% when 'testimonial' %}
             {% assign author = block.settings.author %}
             {% assign quote = block.settings.quote %}
+            {% assign size = block.settings.size %}
             <div class='swiper-slide'>
               <div class='twcss-relative twcss-mx-auto md:twcss-container twcss-py-24 twcss-px-12'>
                 <div class='twcss-relative lg:twcss-flex lg:twcss-items-center'>
@@ -28,7 +29,7 @@
                       />
                     </svg>
                     <blockquote class='twcss-relative'>
-                      <div class='twcss-text-2xl twcss-leading-9 twcss-font-medium twcss-text-gray-800'>
+                      <div class='twcss-{{ size }} twcss-leading-9 twcss-font-medium twcss-text-gray-800'>
                         <p>&#8223;{{ quote }}&#8221;</p>
                         <p class='twcss-pr-16 twcss-text-right handwritten2 twcss-text-3xl twcss-font-medium '>
                           ~ {{ author }}
@@ -134,6 +135,10 @@
             },
             {
               "value": "text-xl",
+              "label": "Medium"
+            },
+            {
+              "value": "text-lg",
               "label": "Small"
             }
           ]
