@@ -1,6 +1,4 @@
-{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
-
-{%- style -%}
+<style>
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
@@ -18,7 +16,7 @@
   background: url("https://cdn.shopify.com/s/files/1/0680/7129/3231/files/book_bg.jpg?v=1674587960") no-repeat center center;
   background-size: cover;
 }
-{%- endstyle -%}
+</style>
 
 <div id="section_book">
     <div class="twcss-mx-auto md:twcss-container twcss-py-8 twcss-px-8">
@@ -196,17 +194,95 @@
     </div>
   </div>
 
-
-{% schema %}
-{
-    "name": "AS Contact Form",
+  {% schema %}
+  {
+    "name": "AS Contact",
+    "tag": "section",
+    "class": "section",
     "settings": [
-  
+      {
+        "type": "text",
+        "id": "heading",
+        "default": "Contact form",
+        "label": "Heading"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "t:sections.all.heading_size.options__1.label"
+          },
+          {
+            "value": "h1",
+            "label": "t:sections.all.heading_size.options__2.label"
+          },
+          {
+            "value": "h0",
+            "label": "t:sections.all.heading_size.options__3.label"
+          }
+        ],
+        "default": "h1",
+        "label": "t:sections.all.heading_size.label"
+      },
+      {
+        "type": "select",
+        "id": "color_scheme",
+        "options": [
+          {
+            "value": "accent-1",
+            "label": "t:sections.all.colors.accent_1.label"
+          },
+          {
+            "value": "accent-2",
+            "label": "t:sections.all.colors.accent_2.label"
+          },
+          {
+            "value": "background-1",
+            "label": "t:sections.all.colors.background_1.label"
+          },
+          {
+            "value": "background-2",
+            "label": "t:sections.all.colors.background_2.label"
+          },
+          {
+            "value": "inverse",
+            "label": "t:sections.all.colors.inverse.label"
+          }
+        ],
+        "default": "background-1",
+        "label": "t:sections.all.colors.label"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
     ],
     "presets": [
       {
-        "name": "AS Contact Form"
+        "name": "AS Contact",
       }
-    ],
-}
-{% endschema %}
+    ]
+  }
+  {% endschema %}
