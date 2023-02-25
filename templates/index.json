@@ -170,6 +170,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "instagrid-1677340173": {
+      "type": "instagrid",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -181,6 +186,7 @@
     "c8e4eb27-b219-484d-87bd-cf34b94df4fb",
     "91d7221a-5ef7-4943-850e-decf928618b8",
     "f4b50e5e-b839-47be-b312-94eee73c8398",
-    "a57bba42-0a41-4b1d-812e-0b1cd6e5e150"
+    "a57bba42-0a41-4b1d-812e-0b1cd6e5e150",
+    "instagrid-1677340173"
   ]
 }
