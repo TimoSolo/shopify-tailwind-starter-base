@@ -109,6 +109,19 @@
     },
     "f4b50e5e-b839-47be-b312-94eee73c8398": {
       "type": "as_testimonials",
+      "blocks": {
+        "1ba9a35c-0539-4426-afc7-b8a5ac2b6a33": {
+          "type": "testimonial",
+          "settings": {
+            "author": "Augustus",
+            "quote": "Aurum Stories from start to finish really understood my vision and helped bring my ideas to life, creating a unique and beautiful engagement ring. The attention to detail and craftsmanship along with their deep knowledge of gem stones and fine jewelry is unprecedented. I would highly recommend in trusting Aurum Stories in creating something special for your loved ones.",
+            "size": "Option 2"
+          }
+        }
+      },
+      "block_order": [
+        "1ba9a35c-0539-4426-afc7-b8a5ac2b6a33"
+      ],
       "settings": {
       }
     }
