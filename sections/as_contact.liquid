@@ -29,7 +29,7 @@
       materials and budget.
     </p>
   </div>
-  <div class='twcss-mx-auto twcss-max-w-2xl md:twcss-flex twcss-py-8 twcss-px-8'>
+  <div class='dark twcss-mx-auto twcss-max-w-2xl md:twcss-flex twcss-py-8 twcss-px-8'>
     {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
       {%- if form.posted_successfully? -%}
         <h2 class='form-status form-status-list form__message twcss-text-md light-green' tabindex='-1' autofocus>
@@ -55,7 +55,7 @@
       <div class='contact__fields'>
         <div class='field'>
           <input
-            class='field__input'
+            class='input field__input'
             autocomplete='name'
             type='text'
             id='ContactForm-name'
@@ -70,7 +70,7 @@
             autocomplete='email'
             type='email'
             id='ContactForm-email'
-            class='field__input'
+            class='input field__input'
             name='contact[email]'
             spellcheck='false'
             autocapitalize='off'
@@ -102,7 +102,7 @@
         <input
           type='tel'
           id='ContactForm-phone'
-          class='field__input'
+          class='input field__input'
           autocomplete='tel'
           name='contact[{{ 'templates.contact.form.phone' | t }}]'
           pattern='[0-9\-]*'
@@ -115,13 +115,13 @@
         <textarea
           rows='10'
           id='ContactForm-body'
-          class='text-area field__input'
+          class='input text-area field__input'
           name='contact[{{ 'templates.contact.form.comment' | t }}]'
           placeholder='{{ 'templates.contact.form.comment' | t }}'
         >
                 {{- form.body -}}
               </textarea>
-        <label class='form__label field__label' for='ContactForm-body'>
+        <label class='input form__label field__label' for='ContactForm-body'>
           {{- 'templates.contact.form.comment' | t -}}
         </label>
       </div>

@@ -68,6 +68,21 @@ p {
   font-size: 36px;
 }
 
+.input {
+  border: 2px solid #dfa24e;
+  background-color: rgba(168, 155, 80, 0.1);
+  box-shadow: inset 2px 2px 2px rgba(56, 46, 3, 0.05);
+}
+.dark .input {
+  color: #f6fffcea;
+  background-color: rgba(150, 185, 184, 0.3);
+  box-shadow: inset 2px 2px 2px rgba(3, 56, 25, 0.5);
+}
+.input::placeholder {
+  color: #7c918b;
+  opacity: 1;
+}
+
 /* Color custom properties */
 
 :root,
