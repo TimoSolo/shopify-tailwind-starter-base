@@ -141,13 +141,22 @@
             "quote": "A really exciting and interesting process in\n                        sourcing my perfect stone! Aurum Stories are incredibly\n                        knowledgeable and provided an excellent service in\n                        finding a beautiful sapphire, as well as a fascinating\n                        insight into the industry. A safe pair of hands sourcing\n                        something so special and really fun too as a fellow\n                        magpie!",
             "size": "text-xl"
           }
+        },
+        "f5d760c1-e273-43a5-b605-63cece4f3cd5": {
+          "type": "testimonial",
+          "settings": {
+            "author": "Ruairidh & Fiona",
+            "quote": "Aurum Stories were great at listening to us,\n                        understanding what we wanted and why, sourcing the best\n                        products and turning out awesome hand drawn designs and\n                        wax models for us to look at and tweak to our desired\n                        outcome. These were so helpful in finalizing our designs\n                        and understanding what we could expect. We were really\n                        impressed with the process, communication and attention\n                        to detail and of course delighted with the final\n                        outcome.",
+            "size": "text-xl"
+          }
         }
       },
       "block_order": [
         "1ba9a35c-0539-4426-afc7-b8a5ac2b6a33",
         "e4fdfa80-4416-45f5-97ee-f61830955f23",
         "2d50851c-6a4d-49df-b968-38b31fda503f",
-        "0830a6f0-bdc6-450f-a529-39839a8c67d3"
+        "0830a6f0-bdc6-450f-a529-39839a8c67d3",
+        "f5d760c1-e273-43a5-b605-63cece4f3cd5"
       ],
       "settings": {
       }
