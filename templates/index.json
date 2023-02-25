@@ -109,6 +109,55 @@
     },
     "f4b50e5e-b839-47be-b312-94eee73c8398": {
       "type": "as_testimonials",
+      "blocks": {
+        "1ba9a35c-0539-4426-afc7-b8a5ac2b6a33": {
+          "type": "testimonial",
+          "settings": {
+            "author": "Augustus",
+            "quote": "Aurum Stories from start to finish really understood my vision and helped bring my ideas to life, creating a unique and beautiful engagement ring. The attention to detail and craftsmanship along with their deep knowledge of gem stones and fine jewelry is unprecedented. I would highly recommend in trusting Aurum Stories in creating something special for your loved ones.",
+            "size": "Option 2"
+          }
+        },
+        "e4fdfa80-4416-45f5-97ee-f61830955f23": {
+          "type": "testimonial",
+          "settings": {
+            "author": "Olivia",
+            "quote": "Creating a piece of jewellery with Aurum Stories\n                        has been so special! Not only is the piece of sentimental value,\n                        but seeing the design and walking through each stage was\n                        so useful to making those crucial decisions with the\n                        design elements.",
+            "size": "Option 2"
+          }
+        },
+        "2d50851c-6a4d-49df-b968-38b31fda503f": {
+          "type": "testimonial",
+          "settings": {
+            "author": "Monika",
+            "quote": "Excellent communication and step-by-step photos\n                        and explanations of the whole custom design process\n                        really demystified the creation of the beautiful pieces.\n                        Aurum Stories brings a lot of knowledge and care to the\n                        design and manufacturing process, creating unique pieces\n                        that I'll treasure.",
+            "size": "text-2xl"
+          }
+        },
+        "0830a6f0-bdc6-450f-a529-39839a8c67d3": {
+          "type": "testimonial",
+          "settings": {
+            "author": "Emily",
+            "quote": "A really exciting and interesting process in\n                        sourcing my perfect stone! Aurum Stories are incredibly\n                        knowledgeable and provided an excellent service in\n                        finding a beautiful sapphire, as well as a fascinating\n                        insight into the industry. A safe pair of hands sourcing\n                        something so special and really fun too as a fellow\n                        magpie!",
+            "size": "text-xl"
+          }
+        },
+        "f5d760c1-e273-43a5-b605-63cece4f3cd5": {
+          "type": "testimonial",
+          "settings": {
+            "author": "Ruairidh & Fiona",
+            "quote": "Aurum Stories were great at listening to us,\n                        understanding what we wanted and why, sourcing the best\n                        products and turning out awesome hand drawn designs and\n                        wax models for us to look at and tweak to our desired\n                        outcome. These were so helpful in finalizing our designs\n                        and understanding what we could expect. We were really\n                        impressed with the process, communication and attention\n                        to detail and of course delighted with the final\n                        outcome.",
+            "size": "text-xl"
+          }
+        }
+      },
+      "block_order": [
+        "1ba9a35c-0539-4426-afc7-b8a5ac2b6a33",
+        "e4fdfa80-4416-45f5-97ee-f61830955f23",
+        "2d50851c-6a4d-49df-b968-38b31fda503f",
+        "0830a6f0-bdc6-450f-a529-39839a8c67d3",
+        "f5d760c1-e273-43a5-b605-63cece4f3cd5"
+      ],
       "settings": {
       }
     }
